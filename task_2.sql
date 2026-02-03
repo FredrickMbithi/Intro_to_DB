@@ -1,11 +1,11 @@
 USE alx_book_store;
 
-CREATE TABLE authors (
+CREATE TABLE AUTHORSuthors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
     author_name VARCHAR(215)
 );
 
-CREATE TABLE books (
+CREATE TABLE Books (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(130),
     author_id INT,
@@ -28,7 +28,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 
 );
-CREATE TABLE order_details (
+CREATE TABLE Order_details (
     orderdetailid INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
     book_id INT,
