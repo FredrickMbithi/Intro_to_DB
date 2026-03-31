@@ -2,7 +2,7 @@
 
 SQL practice exercises and database fundamentals covering MySQL database creation, table operations, and Python-MySQL connectivity.
 
-## 📚 Overview
+## Overview
 
 This repository contains hands-on SQL exercises and scripts demonstrating core database concepts including:
 
@@ -11,7 +11,7 @@ This repository contains hands-on SQL exercises and scripts demonstrating core d
 - SQL constraints and relationships
 - Python-MySQL integration
 
-## 📁 Contents
+## Contents
 
 ### SQL Scripts
 
@@ -26,7 +26,7 @@ This repository contains hands-on SQL exercises and scripts demonstrating core d
 
 - **`MySQLServer.py`** — Python script for MySQL database connection and operations
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ mysql> SOURCE task_3.sql;
 python MySQLServer.py
 ```
 
-## 📊 Database Schema (alx_book_store)
+## Database Schema (alx_book_store)
 
 ### Tables
 
@@ -94,7 +94,7 @@ python MySQLServer.py
 - `order_date`
 - `total_amount`
 
-## 📝 Exercise Tasks
+## Exercise Tasks
 
 ### Task 2: Table Creation
 Creating tables with proper constraints:
@@ -175,7 +175,7 @@ The included Python script demonstrates:
 - Fetching and processing results
 - Error handling for database operations
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By completing these exercises, you will understand:
 
@@ -197,7 +197,7 @@ By completing these exercises, you will understand:
    - Processing query results
    - Transaction management
 
-## 🛠️ Common SQL Commands
+## Common SQL Commands
 
 ```sql
 -- Show all databases
@@ -216,7 +216,7 @@ DESCRIBE books;
 SHOW CREATE TABLE books;
 ```
 
-## 📚 Resources
+## Resources
 
 **MySQL Documentation:**
 - [Official MySQL Docs](https://dev.mysql.com/doc/)
@@ -248,7 +248,7 @@ conn = mysql.connector.connect(
 )
 ```
 
-## 🧪 Testing Your Queries
+## Testing Your Queries
 
 Before running queries on production data:
 
@@ -273,7 +273,7 @@ COMMIT;
 ROLLBACK;
 ```
 
-## 📝 Best Practices
+## Best Practices
 
 1. **Naming Conventions**
    - Use lowercase with underscores: `customer_id`, `order_date`
@@ -290,11 +290,11 @@ ROLLBACK;
    - Specify length constraints where appropriate
    - Use DATETIME for timestamps, not strings
 
-## 📄 License
+## License
 
 Educational project - MIT License
 
-## 👤 Author
+## Author
 
 Fredrick Mbithi
 
